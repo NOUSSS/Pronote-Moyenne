@@ -133,5 +133,12 @@ const waitFunction = async (ms = 1000) =>
   }
 
   await browser.close();
-  process.exit(0);
+
+  console.log(
+    "\n\nLe programme va se fermer dans 50 secondes si vous ne le fermez pas tout seul"
+  );
+
+  setTimeout(() => {
+    process.exit();
+  }, 50000);
 })();
