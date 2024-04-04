@@ -1,2 +1,2 @@
 @echo off
-node main.js
+npm run start
