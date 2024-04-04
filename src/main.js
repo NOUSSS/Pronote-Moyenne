@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 
-import { data } from "./data.js";
+import { data } from "../data.js";
 import { Logger } from "./Logger.js";
 
 const { PRONOTE_URL, REDIRECT_ENT, USER_IDENTIFIANT, USER_PASSWORD } = data;
